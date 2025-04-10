@@ -71,9 +71,9 @@ const sr = ScrollReveal ({
     reset: true
 })
 
-sr.reveal ('.home__data, .favorites__container .footer__container')
-sr.reveal ('.home__circle, .home__img .section__title', {delay:600, scale: .5})
-sr.reveal ('.home__chips-1, .home__chips-2, .home__chips-3, .section__title, .google__map', {delay:1000, interval: 100})
+sr.reveal ('.home__data, .favorites__container, .footer__container')
+sr.reveal ('.home__circle, .section__title', {delay:600, scale: .5})
+sr.reveal ('.home__chips-1, .home__img, .home__chips-2, .home__chips-3, .google__map', {delay:1000, interval: 100})
 sr.reveal ('.home__leaf', {delay:1200, interval: 100})
 sr.reveal ('.home__tomato-1, .home__tomato-2', {delay:1400, interval: 100})
 sr.reveal ('.care__img, .contact__img', {origin: 'left'})
